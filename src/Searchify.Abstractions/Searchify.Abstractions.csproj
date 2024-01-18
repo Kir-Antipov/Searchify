@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net5.0;net8.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>A .NET library that provides core abstractions essential for building efficient fuzzy search, spell checking, and data indexing solutions.</Description>
+    <PackageTags>search distance metric similarity indexing spell check abstractions netstandard</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile> <!-- Who the duck broke these properties? -->
+    <EnablePackageValidation>true</EnablePackageValidation>     <!-- They no longer work if defined in `.targets` -->
+  </PropertyGroup>
+
+</Project>
