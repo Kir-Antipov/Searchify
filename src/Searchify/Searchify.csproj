@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <Description>A high-performance .NET library that provides efficient fuzzy search, spell checking, and data indexing capabilities.</Description>
+    <PackageTags>fuzzy search levenshtein distance metric similarity indexing spell check bk-tree</PackageTags>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile> <!-- Who the duck broke these properties? -->
+    <EnablePackageValidation>true</EnablePackageValidation>     <!-- They no longer work if defined in `.targets` -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../Searchify.Abstractions/Searchify.Abstractions.csproj" />
+    <PackageReference Include="Spanned" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
