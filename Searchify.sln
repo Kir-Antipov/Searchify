@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Searchify", "src/Searchify/
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1AB6D551-9BD3-42B1-A8F6-AD3C33B92586}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Searchify.Tests", "tests/Searchify.Tests/Searchify.Tests.csproj", "{E5A92F6F-D53B-4EC2-BB3B-8654537E3016}"
+EndProject
 Global
     GlobalSection(SolutionConfigurationPlatforms) = preSolution
         Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
         {3A206663-35C4-417E-B5E2-BB7AC9899168}.Debug|Any CPU.Build.0 = Debug|Any CPU
         {3A206663-35C4-417E-B5E2-BB7AC9899168}.Release|Any CPU.ActiveCfg = Release|Any CPU
         {3A206663-35C4-417E-B5E2-BB7AC9899168}.Release|Any CPU.Build.0 = Release|Any CPU
+        {E5A92F6F-D53B-4EC2-BB3B-8654537E3016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {E5A92F6F-D53B-4EC2-BB3B-8654537E3016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {E5A92F6F-D53B-4EC2-BB3B-8654537E3016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {E5A92F6F-D53B-4EC2-BB3B-8654537E3016}.Release|Any CPU.Build.0 = Release|Any CPU
     EndGlobalSection
     GlobalSection(SolutionProperties) = preSolution
         HideSolutionNode = FALSE
@@ -34,5 +40,6 @@ Global
     GlobalSection(NestedProjects) = preSolution
         {865D08CF-4D53-4C5D-A467-770E789BA5CD} = {A985CCE2-4E27-4145-ADA0-55CA9BABA000}
         {3A206663-35C4-417E-B5E2-BB7AC9899168} = {A985CCE2-4E27-4145-ADA0-55CA9BABA000}
+        {E5A92F6F-D53B-4EC2-BB3B-8654537E3016} = {1AB6D551-9BD3-42B1-A8F6-AD3C33B92586}
     EndGlobalSection
 EndGlobal
