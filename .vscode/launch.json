@@ -2,6 +2,19 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": ".NET Launch (Debug)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/tests/Searchify.Benchmarks/bin/Debug/net8.0/Searchify.Benchmarks.dll",
+      "args": [
+        "--filter",
+        "*",
+      ],
+      "cwd": "${workspaceFolder}/tests/Searchify.Benchmarks",
+      "console": "internalConsole",
+    },
+    {
       "name": ".NET Attach",
       "type": "coreclr",
       "request": "attach",
